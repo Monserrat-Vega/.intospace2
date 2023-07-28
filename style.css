@@ -1,0 +1,200 @@
+body{
+   background-image: url('images/Diseño\ sin\ título\ \(1\).png');
+   background-repeat:no-repeat;
+   font-family: 'Bacasime Antique', serif;
+   background-size: cover;
+}
+
+/*Este icono aparece en la pestaña de la página*/
+.icon {
+  width: 100%;
+}
+
+/*DISEÑO DE ENCABEZADO*/
+/********************************************************/
+/*Contenedor de los dos divs que contiene el encabezado*/
+.container{
+  display: flex;
+}
+
+/*******/
+/*Clase del div*/
+.item{
+  padding: auto;
+  float:center;
+  display: table-cell;
+}
+
+/*******/
+/*Contiene el logo ".intoSPACE"*/
+#item1{
+  display: left;
+  width: 30%;
+  
+}
+/*******/
+/*Contiene el menú*/
+#item2{
+  display:right;
+  width: 100%;
+  text-align: center;
+  
+}
+/*******/
+/*botones del menu*/
+/*Decoración del div que contiene los botones*/
+.b{
+  margin-top: 70px;
+  margin-inline: 10px;
+  border: 10px solid #ebb2f9; /*anchura, estilo y color borde*/
+  padding: 10px; /*espacio alrededor texto*/
+  background-color: #ebb2f9; /*color botón*/
+  border-radius: 50px; /*bordes redondos*/
+  }
+/*Decoraciones del texto de los botones*/
+  .b1{
+    text-decoration: none;
+    color: black;
+    font-family: 'Bacasime Antique', serif;
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Lilita One', cursive;
+    font-size: 20px;
+  }
+/*******/
+/*Es el logo .intoSPACE*/
+.logo {
+  width: 100%;
+  margin: 0 auto;
+}
+/*******/
+/*Texto de motivación*/
+.text-motivation{
+    text-align: center;
+    font-family: 'Bacasime Antique', serif;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 50px;
+color:aliceblue;
+  }
+
+
+/*DISEÑO DE SLIDER*/
+.slider-frame {
+	width: 1280px;
+  height: auto;
+	overflow: hidden;
+  margin:50px auto 0;
+}
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: slide 20s infinite alternate ease-in-out;
+}
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+.slider-frame img {
+	width: 60%;
+  margin: 0 250px;
+  margin-top: 0;
+}
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+/*******/
+/*Diseño del texto en general*/
+p{
+   color: rgb(247, 240, 240);
+   font-family: 'Bacasime Antique', serif;
+   font-family: 'Comic Neue', cursive;
+   font-size: 25px;
+}
+
+.container2{
+  display: flex;
+  display: right;
+  width: 90%;
+  background-color: rgba(110, 107, 107, 0.621);
+  margin-right: 80px;
+  padding: 5%;
+  margin-top: 70px;
+
+}
+
+/*******/
+/*Clase del div*/
+.info{
+  padding: auto;
+  float:center;
+  display: table-cell;
+}
+
+/*******/
+/*Contiene el texto del objetivo*/
+#info2{
+  display: left;
+  width: 50%;
+  }
+/*******/
+/*Contiene la foto de carl sagan*/
+.carl{
+  width: 75%;
+}
+
+#info1{
+  display:right;
+  width: 50%;
+  text-align: center;
+  }
+
+.sistema-solar{
+  background-color: rgba(187, 143, 228, 0.66);
+  margin:80px;
+  padding: 40px;
+  border-radius: 60px;
+}
+.sub-sistema{
+  font-family: 'Lilita One', cursive;
+}
+.planetas{
+  font-family: 'Lilita One', cursive;
+  background-color: rgba(252, 252, 50, 0.856);
+  padding: 1%;
+  border-radius: 70px;
+  text-align: center;
+}
+.sub{
+  font-family: 'Lilita One', cursive;
+  color: aliceblue;
+}
+.mercuriofoto{
+  width: 20%;
+}
+.mercurio{
+  background-color: rgba(53, 52, 52, 0.745);
+  padding: 3%;
+  border-radius: 60px;
+  margin: 70px;
+}
+
+.forms{
+  background-color: rgb(110, 155, 234);
+  padding: 3%;
+}
+
+
+
